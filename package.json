@@ -1,0 +1,28 @@
+{
+  "name": "gulp-scss-build",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev-build": "yarn gulp devScss",
+    "build": "yarn gulp scss",
+    "dev-build:w": "yarn gulp watchSass",
+    "build:w": "yarn gulp watchSass"
+  },
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "maintained node versions"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^10.4.15",
+    "css-mqpacker": "^7.0.0",
+    "cssnano": "^6.0.1",
+    "gulp": "^4.0.2",
+    "gulp-dart-sass": "^1.1.0",
+    "gulp-notify": "^4.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.1",
+    "postcss": "^8.4.29"
+  }
+}

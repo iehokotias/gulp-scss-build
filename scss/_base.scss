@@ -1,0 +1,36 @@
+@layer base {
+  :root {
+    --gray-200: #fafafa;
+    --gray-400: #666;
+
+    --text-2xl: 64px;
+
+    --space-8: 32px;
+  }
+}
+
+body {
+  background-color: var(--gray-200);
+  font-family: serif;
+
+  @media screen and (min-width: 768px) {
+    background-color: white;
+  }
+}
+
+div {
+  padding: var(--space-8);
+
+  @media screen and (min-width: 768px) {
+    padding: 40px;
+  }
+
+  h1 {
+    color: var(--gray-400);
+    font-size: var(--text-2xl);
+
+    @media screen and (min-width: 768px) {
+      font-size: 60px;
+    }
+  }
+}
